@@ -3,7 +3,7 @@
    ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
    █                                                                        █
    █     JACKSNXLY                                                          █
-   █     Backend Systems · AI Agents · Developer Tools                      █
+   █     Backend Systems · AI Agents · Quantitative Trading                 █
    █                                                                        █
    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -33,8 +33,8 @@ High-performance APIs in **Rust** (Axum) and **Python** (FastAPI). Microservice 
 <tr>
 <td width="50%" valign="top">
 
-### Developer Tooling
-CLI tools and plugins that improve developer workflows. Release automation, issue tracking integrations, and productivity tools built for engineers.
+### Trading Systems
+Algorithmic trading platforms with ML-enhanced strategies. Real-time market data processing, backtesting engines, multi-account execution, and quantitative analysis pipelines.
 
 </td>
 <td width="50%" valign="top">
@@ -48,14 +48,34 @@ Intelligent web crawlers, data enrichment systems, and ETL pipelines. Stealth sc
 
 <br/>
 
-## Featured Projects
+## Featured Project
+
+### StatsPoint (Athenum)
+**Multi-strategy cryptocurrency trading platform**
+
+A production-grade monorepo containing 5 independent trading strategies, shared Rust/Python libraries, and full infrastructure for algorithmic trading.
+
+```
+PRODUCTS
+├── Athenum Analytics    Real-time liquidation clusters, orderbook analysis, whale tracking
+├── Hedge Scalping       Multi-account strategy for Hyperliquid DEX (93.75% win rate, 4.30 Sharpe)
+├── Smart Money          ML-enhanced RSI with XGBoost (+183% backtest returns)
+├── HF Momentum          High-frequency momentum on 5-minute timeframes
+└── DEX-CEX Arbitrage    Spread monitoring between Lighter DEX and Binance
+```
+
+**Stack:** Rust microservices (Tokio, Actix-Web) · Python ML (scikit-learn, XGBoost) · DBSCAN clustering · RabbitMQ · Prometheus/Grafana · Next.js
+
+<br/>
+
+## Other Projects
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **[claude-issue-toolkit](https://github.com/jacksnxly/claude-issue-toolkit)** | Full issue lifecycle plugin for Claude Code—create, validate, and solve issues end-to-end | Python, Linear API |
-| **[keryx](https://github.com/jacksnxly/keryx)** | AI-powered release notes generator from PRs and conventional commits | Rust, Claude API |
-| **fastpal** | AI sales coach platform with real-time transcription and B2B lead generation | Rust, Python, Next.js, Swift |
-| **typelense** | High-resolution image enhancement pipeline using SDXL + ControlNet | Rust (Axum), Python, ML |
+| **[claude-issue-toolkit](https://github.com/jacksnxly/claude-issue-toolkit)** | Full issue lifecycle plugin for Claude Code | Python, Linear API |
+| **[keryx](https://github.com/jacksnxly/keryx)** | AI-powered release notes generator from PRs | Rust, Claude API |
+| **fastpal** | AI sales coach with real-time transcription and B2B lead gen | Rust, Python, Next.js, Swift |
+| **typelense** | Image enhancement pipeline using SDXL + ControlNet | Rust (Axum), Python, ML |
 
 <br/>
 
