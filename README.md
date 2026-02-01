@@ -82,13 +82,13 @@ INFRASTRUCTURE    Docker · AWS · Supabase · Cloudflare R2 · Prometheus · EL
 
 ## Connect
 
-[![Twitter](https://img.shields.io/badge/-@jacksnxly-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/jacksnxly)
-[![LinkedIn](https://img.shields.io/badge/-Jackson_Ly-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jackson-ly/)
-[![Instagram](https://img.shields.io/badge/-@jacksnxly-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/jacksnxly/)
-[![YouTube](https://img.shields.io/badge/-jacksonly-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@jacksonly)
-[![TikTok](https://img.shields.io/badge/-@jacksonxly-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@jacksonxly)
-[![Website](https://img.shields.io/badge/-jacksonly.xyz-FF5722?style=flat-square&logo=hugo&logoColor=white)](https://jacksonly.xyz)
-[![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jacksnxly)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/jacksnxly)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jackson-ly/)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/jacksnxly/)
+[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@jacksonly)
+[![TikTok](https://img.shields.io/badge/-TikTok-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@jacksonxly)
+[![Website](https://img.shields.io/badge/-Website-FF5722?style=flat-square&logo=hugo&logoColor=white)](https://jacksonly.xyz)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jacksnxly)
 
 ---
 
