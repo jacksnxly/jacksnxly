@@ -489,6 +489,14 @@ def cta_svg(t):
     return svg(W, H, style, body, "Book a 15-minute call")
 
 
+def self_theming(svg_text):
+    """Light SVG plus a dark-mode rule that recolours every token colour (CSS beats presentation attributes)."""
+    L, D = THEMES["light"], THEMES["dark"]
+    rules = " ".join(f'[fill="{L[k]}"] {{ fill: {D[k]}; }} [stroke="{L[k]}"] {{ stroke: {D[k]}; }}'
+                     for k in ("ink", "muted", "teal", "rule", "card"))
+    return svg_text.replace("</style>", f"@media (prefers-color-scheme: dark) {{ {rules} }}\n</style>", 1)
+
+
 # ---------- README ----------
 def read_rss():
     items = ET.parse(RSS).getroot().findall("./channel/item")
@@ -516,13 +524,13 @@ newest = posts[0]
 assets = {}
 for t in THEMES:
     assets[f"masthead-{t}.svg"] = masthead(t, newest["date"])
-    for i, pr in enumerate(PROJECTS):
-        assets[f"card-{pr['slug']}-{t}.svg"], _ = card(pr, t, i)
     assets[f"stats-{t}.svg"], stats_alt = stats_svg(STATS_DATA, t)
-    assets[f"cta-{t}.svg"] = cta_svg(t)
+for i, pr in enumerate(PROJECTS):
+    assets[f"card-{pr['slug']}.svg"] = self_theming(card(pr, "light", i)[0])
+assets["cta.svg"] = self_theming(cta_svg("light"))
 
-cells = [pic("card-" + pr["slug"], f"{pr['name']} ({pr['kicker']}): {pr['num']} {pr['cap']}. {pr['text']}", 420, pr["href"])
-         for pr in PROJECTS]
+cells = [f'<a href="{pr["href"]}"><img src="assets/card-{pr["slug"]}.svg" alt="{pr["name"]} ({pr["kicker"]}): '
+         f'{pr["num"]} {pr["cap"]}. {pr["text"]}" width="420"></a>' for pr in PROJECTS]
 recent = "\n".join(f"- [{x['title']}]({x['link']}) · {x['short']}" for x in posts[:4])
 readme = f"""<p>
 {pic("masthead", "Jackson Ly. Building with fleets of AI agents, and the checks that keep them honest.")}
@@ -535,7 +543,7 @@ I'm Jackson Ly, an AI systems engineer in Germany and lead engineer for [Registe
 Struggling to get Claude Code or Codex to do real work? I offer AI engineering support: setting them up, writing briefs an agent can finish, and checking the work before it ships.
 
 <p>
-{pic("cta", "Book a 15-minute call", 300, "https://cal.com/lyjackson/15min")}
+<a href="https://cal.com/lyjackson/15min"><img src="assets/cta.svg" alt="Book a 15-minute call" width="300"></a>
 </p>
 
 ## What I'm building

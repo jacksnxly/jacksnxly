@@ -12,33 +12,18 @@ I'm Jackson Ly, an AI systems engineer in Germany and lead engineer for [Registe
 Struggling to get Claude Code or Codex to do real work? I offer AI engineering support: setting them up, writing briefs an agent can finish, and checking the work before it ships.
 
 <p>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cta-dark.svg">
-  <a href="https://cal.com/lyjackson/15min"><img src="assets/cta-light.svg" alt="Book a 15-minute call" width="300"></a>
-</picture>
+<a href="https://cal.com/lyjackson/15min"><img src="assets/cta.svg" alt="Book a 15-minute call" width="300"></a>
 </p>
 
 ## What I'm building
 
 <p>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-registercheck-dark.svg">
-  <a href="https://www.registercheck.de"><img src="assets/card-registercheck-light.svg" alt="Registercheck (Day job): 5.8M companies from 118 register courts. German company-register data, with a REST API and an MCP server for AI assistants." width="420"></a>
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-morndo-dark.svg">
-  <a href="https://github.com/morndo/morndo"><img src="assets/card-morndo-light.svg" alt="Morndo (Open source): 2,219 agent-hours in 427 wall-clock hours, Sep 2026. A self-hosted control plane for one person running many coding agents." width="420"></a>
-</picture>
+<a href="https://www.registercheck.de"><img src="assets/card-registercheck.svg" alt="Registercheck (Day job): 5.8M companies from 118 register courts. German company-register data, with a REST API and an MCP server for AI assistants." width="420"></a>
+<a href="https://github.com/morndo/morndo"><img src="assets/card-morndo.svg" alt="Morndo (Open source): 2,219 agent-hours in 427 wall-clock hours, Sep 2026. A self-hosted control plane for one person running many coding agents." width="420"></a>
 </p>
 <p>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-venua-dark.svg">
-  <a href="https://www.venua.io"><img src="assets/card-venua-light.svg" alt="Venua (Co-founder): 820 tickets at IdeaLab! 2026. Event software for B2B organisers. I co-founded it and I'm its only engineer." width="420"></a>
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-sleipa-dark.svg">
-  <a href="https://jacksonly.xyz/projects/sleipa"><img src="assets/card-sleipa-light.svg" alt="Sleipa (Research): 16.7% of my follow-ups exist because the agent fell short. My research on when coding agents can be trusted to work unsupervised." width="420"></a>
-</picture>
+<a href="https://www.venua.io"><img src="assets/card-venua.svg" alt="Venua (Co-founder): 820 tickets at IdeaLab! 2026. Event software for B2B organisers. I co-founded it and I'm its only engineer." width="420"></a>
+<a href="https://jacksonly.xyz/projects/sleipa"><img src="assets/card-sleipa.svg" alt="Sleipa (Research): 16.7% of my follow-ups exist because the agent fell short. My research on when coding agents can be trusted to work unsupervised." width="420"></a>
 </p>
 
 ## Lately on GitHub
