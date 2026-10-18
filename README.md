@@ -1,129 +1,31 @@
 # Hi, I'm Jackson
 
-**Germany** | **Systems Engineer** | **Quant Trading & AI/ML**
+I'm an AI systems engineer in Germany and lead engineer for [Registercheck](https://www.registercheck.de) at Openlaw, a YC-backed startup (F24). Most of my engineering now runs through AI coding agents, many of them at once, so a lot of my work is what sits around them: clear briefs, checks that don't take an agent's word for "done", and knowing which work shipped.
 
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+## What I'm building
 
-> Building production systems where milliseconds matter — high-throughput Rust services, ML pipelines, and real-time data infrastructure.
+- [Registercheck](https://www.registercheck.de), my day job: the German commercial register as structured data, with 5.8 million companies, a REST API and an MCP server for AI assistants.
+- [Morndo](https://github.com/morndo/morndo), open source: a self-hosted control plane for one person running many coding agents. Each question reaches you once, and "done" needs proof from outside the agent.
+- [Venua](https://www.venua.io), which I co-founded: event software for B2B organisers. I'm its only engineer.
+- [Sleipa](https://jacksonly.xyz/projects/sleipa), my research on when coding agents can be trusted to work unsupervised. The null results get published too.
 
-## Current Projects
+## Small tools
 
-- **[Athenum](https://github.com/jacksnxly)** - Multi-strategy cryptocurrency trading platform. 8 trading products, Rust microservices ingesting from 4 exchanges, Python ML signal generation.
-- **[FastPal](https://github.com/jacksnxly)** - AI-powered sales intelligence: real-time coaching during calls + B2B lead generation with gRPC scraping and Vertex AI enrichment.
-- **[Typelense](https://github.com/jacksnxly)** - AI fashion photography with SDXL + ControlNet diffusion pipelines for virtual try-on and 2048px+ upscaling.
-- **[InnoCom](https://github.com/jacksnxly)** - Multi-tenant innovation platform connecting companies, universities, and students with AI-powered co-founder matching and RAG coaching.
+- [Claudometer](https://github.com/jacksnxly/Claudometer) is a macOS menu-bar app that shows your Claude Code usage against the 5-hour and 7-day limits.
+- [keryx](https://github.com/jacksnxly/keryx) writes release notes from pull requests and conventional commits (Rust CLI).
+- [claude-issue-toolkit](https://github.com/jacksnxly/claude-issue-toolkit) is a Claude Code plugin that takes an issue from creation through validation to a fix, tracked in Linear or in local Markdown files.
 
-### Open Source
+## Writing
 
-- **[claude-issue-toolkit](https://github.com/jacksnxly/claude-issue-toolkit)** - Full issue lifecycle plugin for Claude Code — create, validate, solve end-to-end
-- **[keryx](https://github.com/jacksnxly/keryx)** - AI release notes generator from PRs and conventional commits (Rust CLI)
+I write about running many agents at once and checking what they did, on [jacksonly.xyz](https://jacksonly.xyz/blog). Start with these:
 
-## Core Expertise
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### High-Performance Backend
-Rust microservices with **Axum**, **Actix-Web**, and **Tokio**. gRPC services via **Tonic**. Async-first architecture with connection pooling, circuit breakers, and comprehensive observability (Prometheus, ELK, structured logging).
-
-</td>
-<td width="50%" valign="top">
-
-### ML Systems & AI Integration
-Production ML pipelines with **scikit-learn**, **XGBoost**, and **Random Forest** models. Vector embeddings with **Qdrant**. RAG systems with LLM integration. Image generation with **SDXL + ControlNet**.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Real-Time Data Infrastructure
-WebSocket servers handling 1000+ concurrent connections. Message-driven architectures with **RabbitMQ**. Stream processing for market data. **TimescaleDB** for time-series at scale.
-
-</td>
-<td width="50%" valign="top">
-
-### Quantitative Trading Systems
-Multi-strategy platforms with DBSCAN clustering for liquidation detection. Technical indicators (RSI, MACD, Bollinger Bands). ML-enhanced signal filtering. Backtesting engines with walk-forward validation.
-
-</td>
-</tr>
-</table>
+- [225 billion Claude Code tokens in 30 days: what the number actually measures](https://jacksonly.xyz/blog/225-billion-claude-code-tokens-in-30-days)
+- [MLX vs GGUF on Apple Silicon: which local LLM format should you actually use?](https://jacksonly.xyz/blog/mlx-vs-gguf-on-apple-silicon-which-local-llm-format-should-you-actually-use)
 
 ## Stack
 
-```
-SYSTEMS           Rust · Tokio · Axum · Actix-Web · Tonic (gRPC) · SQLx
-ML/AI             Python · scikit-learn · XGBoost · Diffusers · LangChain · OpenAI
-DATA              PostgreSQL · TimescaleDB · Redis · RabbitMQ · Qdrant
-FRONTEND          TypeScript · Next.js · React · Tailwind
-INFRASTRUCTURE    Docker · AWS · Supabase · Cloudflare R2 · Prometheus · ELK
-```
+Mostly TypeScript and Python, with Next.js, SvelteKit, FastAPI and SQLite. Rust for command-line tools, SwiftUI and Kotlin for native apps.
 
-## GitHub Activity
+## Elsewhere
 
-![GitHub Contribution Graph](https://ghchart.rshah.org/jacksnxly)
-
-## What I'm Doing
-
-- **Building trading infrastructure** - Rust-powered analytics and ML-enhanced signal pipelines for crypto markets
-- **Shipping AI products** - From real-time sales coaching to fashion photography diffusion models
-- **Open source tooling** - Developer tools for AI workflows and release automation
-
-## Connect
-
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/jacksnxly)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jackson-ly/)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/jacksnxly/)
-[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@jacksonly)
-[![TikTok](https://img.shields.io/badge/-TikTok-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@jacksonxly)
-[![Website](https://img.shields.io/badge/-Website-FF5722?style=flat-square&logo=hugo&logoColor=white)](https://jacksonly.xyz)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jacksnxly)
-
----
-
-### Philosophy
-
-> "Ship beats perfect" — I build high-performance systems to solve real problems, then iterate relentlessly. Rust for speed, Python for intelligence, TypeScript for interfaces.
-
-<details>
-<summary>Featured: Athenum Architecture</summary>
-
-```
-ANALYTICS PLATFORM (Rust)
-├── whale-wall-tracker     Real-time large order detection across Binance, Hyperliquid, Coinbase
-├── liquidation-analyzer   DBSCAN clustering for liquidation level detection
-├── orderbook-archiver     5-minute snapshots with TimescaleDB hypertables
-├── market-aggregator      Multi-exchange price/volume aggregation
-└── api                    Actix-web REST + WebSocket SSE, Prometheus metrics
-
-TRADING STRATEGIES (Python)
-├── Smart Money            Order Blocks, FVG, Multi-RSI divergence, XGBoost signal filter
-├── Hedge Scalping         EMA grid strategy for Hyperliquid DEX
-├── HF Momentum            Multi-timeframe momentum with ATR-based position sizing
-└── DEX-CEX Arbitrage      Spread monitoring between Lighter DEX and Binance
-```
-
-**Stack:** Rust (Tokio, Actix-Web, SQLx) · Python (scikit-learn, XGBoost) · TimescaleDB · RabbitMQ · Redis
-
-</details>
-
----
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jacksnxly&show_icons=true&hide_border=true&bg_color=00000000&title_color=888888&text_color=666666&icon_color=888888)
-
-**Building systems where milliseconds matter.**
-
-</div>
+[Website](https://jacksonly.xyz) · [LinkedIn](https://www.linkedin.com/in/jackson-ly) · [X](https://x.com/jacksnxly) · [DEV](https://dev.to/jacksonxly) · [Medium](https://medium.com/@lyjackson) · [YouTube](https://www.youtube.com/@jacksonly)
