@@ -7,9 +7,9 @@
 
 I'm Jackson Ly, an AI systems engineer in Germany and lead engineer for [Registercheck](https://www.registercheck.de) at Openlaw, a YC-backed startup (F24). Most of my engineering now runs through AI coding agents, many of them at once, so a lot of my work is what sits around them: clear briefs, checks that don't take an agent's word for "done", and knowing which work shipped.
 
-## AI engineering help
+## Help with Claude Code and Codex
 
-Struggling to get Claude Code or Codex to do real work? I offer AI engineering support: setting them up, writing briefs an agent can finish, and checking the work before it ships.
+Agents that stop halfway, loop for hours or say "done" when they aren't? I help engineers, teams and founders set up Claude Code and Codex so the work finishes and you can check it. [How I help](https://jacksonly.xyz/help)
 
 <p>
 <a href="https://cal.com/lyjackson/15min"><img src="assets/cta.svg" alt="Book a 15-minute call" width="300"></a>
