@@ -538,9 +538,9 @@ readme = f"""<p>
 
 I'm Jackson Ly, an AI systems engineer in Germany and lead engineer for [Registercheck](https://www.registercheck.de) at Openlaw, a YC-backed startup (F24). Most of my engineering now runs through AI coding agents, many of them at once, so a lot of my work is what sits around them: clear briefs, checks that don't take an agent's word for "done", and knowing which work shipped.
 
-## Help with Claude Code and Codex
+## Agent Clinic: help with Claude Code and Codex
 
-Agents that stop halfway, loop for hours or say "done" when they aren't? I help engineers, teams and founders set up Claude Code and Codex so the work finishes and you can check it. [How I help](https://jacksonly.xyz/help)
+Agents that stop halfway, loop for hours or say "done" when they aren't? Agent Clinic is my hands-on help for engineers, teams and founders: we fix the setup in your repo, so the work finishes and you can check it. [See how it works](https://jacksonly.xyz/help)
 
 <p>
 <a href="https://cal.com/lyjackson/15min"><img src="assets/cta.svg" alt="Book a 15-minute call" width="300"></a>
