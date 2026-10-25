@@ -1,14 +1,10 @@
 {
- "updated": "2026-10-24",
- "prs_30d": 1109,
+ "updated": "2026-10-25",
+ "prs_30d": 1097,
  "repos_30d": 16,
- "contrib_30d": 11382,
- "contrib_year": 29634,
+ "contrib_30d": 11426,
+ "contrib_year": 30081,
  "weeks": [
-  {
-   "first_day": "2025-10-19",
-   "total": 90
-  },
   {
    "first_day": "2025-10-26",
    "total": 50
@@ -215,7 +211,11 @@
   },
   {
    "first_day": "2026-10-18",
-   "total": 2551
+   "total": 2904
+  },
+  {
+   "first_day": "2026-10-25",
+   "total": 94
   }
  ]
 }
