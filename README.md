@@ -31,7 +31,7 @@ Agents that stop halfway, loop for hours or say "done" when they aren't? Agent C
 <p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img src="assets/stats-light.svg" alt="On GitHub in the last 30 days: 1,394 pull requests merged into 18 repositories, 14,022 contributions. Weekly contributions over the last 12 months peak at 4,452.">
+  <img src="assets/stats-light.svg" alt="On GitHub in the last 30 days: 1,448 pull requests merged into 18 repositories, 13,808 contributions. Weekly contributions over the last 12 months peak at 4,452.">
 </picture>
 </p>
 
