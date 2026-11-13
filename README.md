@@ -31,7 +31,7 @@ Agents that stop halfway, loop for hours or say "done" when they aren't? Agent C
 <p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img src="assets/stats-light.svg" alt="On GitHub in the last 30 days: 1,572 pull requests merged into 17 repositories, 13,420 contributions. Weekly contributions over the last 12 months peak at 4,452.">
+  <img src="assets/stats-light.svg" alt="On GitHub in the last 30 days: 1,589 pull requests merged into 17 repositories, 13,155 contributions. Weekly contributions over the last 12 months peak at 4,452.">
 </picture>
 </p>
 
@@ -40,10 +40,10 @@ Agents that stop halfway, loop for hours or say "done" when they aren't? Agent C
 I write about running many agents at once and checking what they did. The latest:
 
 <!-- RECENT-POSTS:START -->
+- [What broke when I ran 20 coding agents at 229B tokens a month](https://jacksonly.xyz/blog/what-broke-running-20-coding-agents) · 12 Nov 2026
 - [225 billion Claude Code tokens in 30 days: what the number actually measures](https://jacksonly.xyz/blog/225-billion-claude-code-tokens-in-30-days) · 18 Oct 2026
 - [Test the second access path before you call a metric unreadable](https://jacksonly.xyz/blog/test-the-second-access-path-before-you-call-a-metric-unreadable) · 15 Aug 2026
 - [Refreshing a token I did not own logged our account out](https://jacksonly.xyz/blog/refreshing-a-token-i-did-not-own-logged-our-account-out) · 11 Aug 2026
-- [A 200 response is not a page, and your policy check is grepping an empty shell](https://jacksonly.xyz/blog/a-200-response-is-not-a-page-and-your-policy-check-is-grepping-an-empty-shell) · 9 Aug 2026
 <!-- RECENT-POSTS:END -->
 
 [All posts on jacksonly.xyz](https://jacksonly.xyz/blog)
